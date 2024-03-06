@@ -1,0 +1,659 @@
+@font-face {
+    font-family: SoDoSans-Regular;
+    src: url("../Font/SoDoSans-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkgreenlocaliza: #004521;
+    --lightgreenlocaliza: #01602a;
+}
+
+body {
+    font-family:  Helvetica, sans-serif;
+    overflow-x: hidden;
+
+}
+/* Configuração da Div (Header) */
+
+header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.real-header {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0em 0.3em 0.5em rgba(0, 0, 0, 0.274);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/* Configurações dos itens da lista */
+
+.first-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-opt {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.nav-opt:nth-child(2) {
+    background-color: #00586f;
+}
+
+.nav-opt:nth-child(3) {
+    background-color: #fc8422;
+}
+
+.nav-opt:nth-child(4) {
+    background-color: #78de1f;
+}
+
+.nav-opt:nth-child(5) {
+    background-color: #5ad893;
+}
+
+.nav-opt:nth-child(1) {
+    background-color: var(--darkgreenlocaliza);
+    border-radius: 5px 0px 0px 0px;
+}
+
+.nav-opt a {
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 8pt;
+    line-height: 40px;
+}
+
+.nav-opt>a:visited {
+    color: white;
+}
+
+.nav-opt select {
+    font-family: Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 12pt;
+}
+
+#countries-select {
+    border-radius: 5px 0px 0px 0px;
+    color: var(--darkgreenlocaliza);
+
+}
+
+/* Segunda div */
+
+.site-nav {
+    background-color: var(--lightgreenlocaliza);
+    height: 100px;
+    position: relative;
+}
+
+.img-place {
+    display: inline-block;
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 0px;
+}
+
+.img-logo {
+    display: inline;
+    height: 100%;
+   
+}
+
+/* Nav, ul, il - Segundo */
+.segunda-lista {
+    display: inline-block;
+    height: 100%;
+    
+}
+.nav-ul {
+    display: flex;
+    height: 100%;
+}
+
+.nav-ul li {
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.second-list a{
+    color: white;
+    font-family:  Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 9pt;
+    
+}
+
+.second-list a:visited{
+    color: white;
+}
+
+
+
+/* Terceira parte da div */
+.adicional-opt{
+    display: inline-block;  
+    height: 100%;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.addition {
+    display: flex;
+    margin-top: 20px;
+}
+
+.add-ul li{
+    text-align: left;
+    line-height: 2;
+}
+
+.two-opt a {
+    color: white;
+    text-decoration: none;
+    font-family:  Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.changing-word{
+    padding-left: 10px;
+}
+
+/* Ultima parte do header */
+
+.last-part {
+    width: 100%;
+    height: 100px;
+    background-color: #004521;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    
+}
+
+/* Localidade */
+.input-local {
+    display: inline-block;
+    height: 100%;
+    width: 500px;
+
+}
+
+.input-localidade {
+    width: 472px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    
+    
+}
+
+
+/* DATA */
+.input-data{
+    display: inline-block;
+    height: 100%;
+}
+
+.input-horario {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+.input-horario::-webkit-calendar-picker-indicator {
+    opacity: 0;    
+}
+ 
+/* HORA  */
+.input-hora {
+    display: inline-block;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.input-hor {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+/* Configs of the inputs */
+.input-hor::-webkit-calendar-picker-indicator {
+    opacity: 0;    
+}
+
+.inputss::placeholder {
+    color: gray;
+    padding-left: 20px;
+    font-family:  Helvetica, sans-serif;
+}
+
+
+/* Ultima parte da ultima div do header */
+
+.economia {
+    height: 100%;
+    display: flex;
+    margin-left: 40px;
+}
+
+.momney-link{
+    width: 120px;
+}
+
+.momney-link a {
+    color: white;
+    text-decoration: underline;
+    font-family: Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.moneyy {
+    margin-top: 30px;
+}
+/* Final do header */
+
+
+
+
+
+/* MAIN */
+
+main {
+    display: block;
+}
+
+.navega-div {
+    width: 100%;
+    text-align: center;
+}
+
+.navegationn {
+    width: 80%;
+    display: inline-block;
+    text-align: start;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.445);
+    padding-bottom: 20px;
+}
+
+.ul-nav-main {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.nav-main {
+    display: inline-flex;
+}
+
+.nav-main a{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 10pt;
+}
+.nav-main:nth-child(1) > a {
+    color: #01602a;
+
+}
+.nav-main:nth-child(1) > a:hover {
+    color: #01ac4b;
+
+}
+.nav-main:nth-child(2) > a {
+    color: #6e6e6e;
+}
+.nav-main:nth-child(2) > a:hover {
+    color: #868686;
+}
+
+
+/* DIVS DE CARROS */
+
+
+/* Configs gerais da div */
+.carros-divs {
+    width: 100%;
+    text-align: center;
+}
+
+/* Header da parte do carro */
+.config-car {
+    width: 80%;
+    display: inline-block;
+}
+
+.cars-intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+.h1-intro-config {
+    display: inline;
+
+}
+.select-intro-config {
+    display: inline;
+    margin-top: 5px;
+}
+
+
+/* Main da parte do carro */
+
+.cars-main {
+    display: flex;   
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    text-wrap: nowrap;
+    flex-wrap: wrap;
+}
+
+.first-roww {
+    display: inline-block;
+    
+}
+
+.pr-fileira {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    box-shadow: 0em 0.25em 0.5em rgba(128, 128, 128, 0.664);
+    padding: 3em 2em;
+    width: 30%;
+    text-wrap: wrap;
+}
+
+.pr-fileira:nth-child(2), .pr-fileira:nth-child(3) {
+    margin-left: 40px;
+}
+
+.pr-fileira h3 {
+    color: #004521;
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+/* IMAGENS DOS CARROS */
+.cars-img {
+    width: 200px;
+    padding-top: 40px;
+}
+
+.content-car p {
+    padding-top: 15px;
+    font-size: 8pt;
+    font-family: SoDoSans-Regular;
+}
+
+
+
+
+/* Botões */
+
+/* Circulares */
+.circles-button {
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(120, 222, 31);
+    cursor: pointer;
+}
+
+.circles-button:last-child {
+    margin-left: 10px;
+}
+
+.circles-button:first-child {
+    background-color: rgb(120, 222, 31);
+}
+
+/* Reservas */
+.footer-das-cartas {
+    padding-top: 20px;
+}
+.reservas {
+    width: 100%;
+    color:var(--darkgreenlocaliza);
+    background-color: rgb(120, 222, 31);
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.reservas:hover {
+    color: white;
+    background-color: rgba(120, 222, 31, 0.514);
+    transition: 0.5s;
+}
+.spining, .spining:visited{
+    display: inline-block;
+    font-size: 10pt;
+    padding-top: 15px;
+    color: #005e2d;
+    text-decoration: underline;
+}
+.spining:hover {
+    color: #007a3b;
+}
+
+/* Segunda linha */
+.sncd-roww {
+    display: inline-block;
+    width:100%;
+    padding-top: 30px;
+}
+
+.sc-fileira {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    box-shadow: 0em 0.25em 0.5em rgba(128, 128, 128, 0.664);
+    padding: 3em 2em;
+    width: 30%;
+    text-wrap: wrap;
+}
+
+.sc-fileira:nth-child(2), .sc-fileira:nth-child(3) {
+    margin-left: 40px;
+}
+
+.sc-fileira h3 {
+    color: #004521;
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+/* Terceira linha */
+
+.thrd-roww {
+    display: inline-block;
+    width:100%;
+    padding-top: 30px;
+}
+
+.th-fileira {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    box-shadow: 0em 0.25em 0.5em rgba(128, 128, 128, 0.664);
+    padding: 3em 2em;
+    width: 30%;
+    text-wrap: wrap;
+    
+}
+
+.th-fileira:nth-child(2), .th-fileira:nth-child(3) {
+    margin-left: 40px;
+}
+
+.th-fileira h3 {
+    color: #004521;
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 5%;
+    display: block;
+    width: 100%;
+}
+
+.links-para-contato {
+    width: 100%;
+    color: white;
+    background-color:rgb(56, 56, 56) ;
+}
+
+.links-proprios {
+    display: inline-flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 100px;
+}
+
+.links-contact {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.links-contact h3 {
+    color: rgb(120, 222, 31);
+}
+
+.ul-contacts {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.li-contacts {
+    display: flex;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.li-contacts span {
+    padding-left: 10px;
+}
+
+.li-contacts:hover {
+    color: rgb(120, 222, 31);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+/* Div do celular */
+.div-do-celular {
+    display: inline-block;
+    width: 100%;
+    background-color:rgb(242, 242, 242) ; 
+}
+
+.celular-config {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.img-do-celular {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.texto-do-celular {
+    margin-left: 100px;
+}
+
+.texto-do-celular h3 {
+    color: #004521;
+    
+}
+
+.config-button-celular {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    
+}
+
+.config-button-celular:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+.segundo-button {
+    margin-left: 20px;
+}
+
+.span-play {
+    padding-left: 2px;  
+}
+
+.redes-span{
+    color: black;
+    font-size: 12pt;
+    margin-top: 40px;
+}
+
+.redes-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.icones-redes:not(.icones-redes:nth-child(1)){
+    margin-left: 20px;
+}
+
+.icones-redes svg:hover{
+    fill: rgb(72, 146, 7);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+/* Giro para as divs */
+
+.girar {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+

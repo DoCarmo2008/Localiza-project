@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="localiza.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gabriel do Carmo Batista">
+    <title>Localiza | Aluguel de Carros com a maior frota do Brasli</title>
+    <link rel="shortcut icon" type="imagex/png" href="../Imagens/icone.png">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="real-header">
+            <div class="nav-div">
+                <nav>
+                    <ul style="list-style-type: none;" class="first-list">
+                        <li class="nav-opt"><a href="#">ALUGUEL DE CARROS</a></li>
+                        <li class="nav-opt"><a href="#">GESTÃO DE FROTAS</a></li>
+                        <li class="nav-opt"><a href="#">SEMINOVOS</a></li>
+                        <li class="nav-opt"><a href="#" style="color: black;">
+                                <nobr> MEOO - CARRO POR ASSINATURA</nobr>
+                            </a></li>
+                        <li class="nav-opt"><a href="#" style="color: black;">ZARP</a></li>
+                        <li class="nav-opt">
+                            <select name="countries-select" id="countries-select" style="border: none;">
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brasil" selected>Brasil</option>
+                                <option value="Colômbia">Colômbia</option>
+                                <option value="Equador">Equador</option>
+                                <option value="México">México</option>
+                                <option value="Paraguai">Paraguai</option>
+                                <option value="Uruguai">Uruguai</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="site-nav">
+                <div class="img-place">
+                    <img src="../Imagens/logo-header.png" alt="Logo Localiza" class="img-logo" />
+                </div>
+
+                <div class="segunda-lista">
+                    <nav>
+                        <ul style="list-style-type: none;" class="nav-ul">
+                            <li class="second-list"><a href="">GRUPOS DE CARROS</a></li>
+                            <li class="second-list"><a href="">REDE DE AGÊNCIAS</a></li>
+                            <li class="second-list"><a href="">OFERTAS</a></li>
+                            <li class="second-list"><a href="">FIDELIDADE</a></li>
+                            <li class="second-list"><a href="">PARA EMPRESAS</a></li>
+                            <li class="second-list"><a href="">DÚVIDAS</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="adicional-opt">
+                    <nav class="addition">
+                        <ul style="list-style-type: none;" class="add-ul">
+                            <li class="two-opt">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                                        fill="rgb(120, 222, 31)" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17s3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z" />
+                                    </svg>
+                                    <span class="changing-word">MINHAS RESERVAS</span>
+                                </a>
+                            </li>
+
+                            <li class="two-opt">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23"
+                                        fill="rgb(120, 222, 31)" class="bi bi-person" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                                    </svg>
+                                    <span class="changing-word">LOGIN</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="last-part">
+                <div class="input-local">
+                    <input type="text" name="endereco" id="endereco" class="input-localidade inputss"
+                        placeholder="Digite o local de retirada">
+                </div>
+                <div class="input-data">
+                    <input type="text" name="data" id="data" class="input-horario inputss" placeholder="Data"
+                        onfocus="(this.type='date')" onblur="(this.type='text')">
+                </div>
+                <div class="input-hora">
+                    <input type="text" name="hora" id="horao" class="input-hor inputss" onfocus="(this.type='time')"
+                        onblur="(this.type='text')" placeholder="Hora">
+                </div>
+                <div class="economia">
+                    <div class="money-logo moneyy">
+                        <svg viewBox="0 0 34 34" fill="white" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+                            <path
+                                d="M17.9648 22.8575C19.9469 22.8575 21.5594 21.245 21.5594 19.263V19.0374C21.5594 17.0553 19.9469 15.4429 17.9648 15.4429H15.5946C14.654 15.4429 13.8889 14.6775 13.8889 13.737C13.8889 12.7965 14.654 12.0314 15.5946 12.0314H19.8422C20.3638 12.0314 20.7866 11.6085 20.7866 11.0869C20.7866 10.5653 20.3638 10.1425 19.8422 10.1425H17.463V8.8139C17.463 8.3644 17.0986 8 16.6491 8C16.1996 8 15.8352 8.3644 15.8352 8.8139V10.1425H15.5946C13.6126 10.1425 12 11.755 12 13.737C12 15.7191 13.6126 17.3317 15.5946 17.3317H17.9648C18.9053 17.3317 19.6705 18.0969 19.6705 19.0374V19.263C19.6705 20.2035 18.9053 20.9686 17.9648 20.9686H13.7172C13.1956 20.9686 12.7727 21.3915 12.7727 21.9131C12.7727 22.4347 13.1956 22.8575 13.7172 22.8575H15.8352V24.1861C15.8352 24.6356 16.1996 25 16.6491 25C17.0986 25 17.463 24.6356 17.463 24.1861V22.8575H17.9648Z"
+                                fill="#FFFFFF"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17ZM33 17C33 25.8366 25.8366 33 17 33C8.16344 33 1 25.8366 1 17C1 8.16344 8.16344 1 17 1C25.8366 1 33 8.16344 33 17Z"
+                                fill="#FFFFFF"></path>
+                        </svg>
+                    </div>
+                    <div class="momney-link moneyy">
+                        <a href="#">Economize com o aluguel mensal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="carousel-container">
+            <div id="carousel-track">
+                <div class="carousel-item"><img src="../Imagens/BANNER-HOME-SITE-CUPOM_2-1.png" alt="Image 1"></div>
+                <div class="carousel-item"><img src="../Imagens/RAC-PUBLI-BANNER-BANNER-HOME-SITE-V2.png" alt="Image 2">
+                </div>
+                <div class="carousel-item"><img src="../Imagens/BANNER-SITE-RAC-PORTAL-DO-CLIENTE-V3.png" alt="Image 3">
+                </div>
+            </div>
+            <button id="prevButton" onclick="prevSlide()">&#10094;</button>
+            <button id="nextButton" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+        <div class="links-duo">
+            <div class="fast-add">
+                <div class="fast-retirada">
+                    <div class="fast-img">
+                        <img src="../Imagens/Primeira pagina/Primeira faixa/fast.png" alt="Fast Retirada Digital">
+                    </div>
+                    <div class="fast-text texts-div">
+                        <h3>Fast retirada Digital</h3>
+                        <p>Retire seu carro sem enfrentar filas.</p>
+                        <a href="#">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="adicionais">
+                    <div class="adc-img">
+                        <img src="../Imagens/Primeira pagina/Primeira faixa/adc.png" alt="Adicionais">
+                    </div>
+                    <div class="adc-text texts-div">
+                        <h3>Adicionais</h3>
+                        <p>Tudo para que sua viagem ainda mais simples e prazerosa!</p>
+                        <a href="#">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Parte da Ludmila -->
+        <div class="carrossel-de-carros">
+            <div class="carros-carrossel">
+                <h2 style="color:rgb(1, 96, 42);">
+                    <center>Conheça a nossa Frota</center>
+                </h2>
+                <p style="margin-top: 10px;">
+                    <center>As melhores condições para você reservar e aproveitar</center>
+                </p>
+
+                <div class="carousel">
+                    <div class="carousel-container-car">
+                        <div class="carro">
+                            <center><img src="../Imagens/Carros/KWID.png" alt="Carro 1"></center>
+                            <h2 class="h2-carros">
+                                <center>Grupo LE - Suv Epecial</center>
+                            </h2>
+                            <p class="p-carro">
+                                <center>Veículo similar a: Jeep Compass 1.3 Turbo, Toyota Corolla Cross 2.0, Mitsubishi
+                                    Eclipse Cross 1.5 T, dentre outros.</center>
+                            </p>
+                        </div>
+                        <div class="carro">
+                            <center><img src="../Imagens/Carros/MOBI.png" alt="Carro 2"></center>
+                            <h2 class="h2-carros">
+                                <center>Grupo GR - Suv Elite</center>
+                            </h2>
+                            <p class="p-carro">
+                                <center>Veículo similar a: Chery Tiggo 8 1.6, Jeep Commander 1.3 Turbo, dentre outros.
+                                </center>
+                            </p>
+                        </div>
+                        <div class="carro">
+                            <center><img src="../Imagens/Carros/Terceira div/KACR.png" alt="Carro 3"></center>
+                            <h2 class="h2-carros">
+                                <center>Grupo L - Executivo</center>
+                            </h2>
+                            <p class="p-carro">
+                                <center>Veículo similar a: Toyota Corolla 2.0, GM Cruze 1.4 Turbo, NISSAN SENTRA 2.0,
+                                    dentre
+                                    outros.</center>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+                    <div class="next" onclick="plusSlides(1)">&#10095;</div>
+
+                    <!-- Fiz algumas alterações e criei essa botão (Gabriel ;P ) -->
+                    <div class="conferir-grupos">
+                        <a href="../Segunda Página/introducao.html"><button class="conferir">
+                            CONFIRA TODOS OS GRUPOS
+                        </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="viagenss">
+            <div class="agrupar-tour">
+                <div class="tour-pri">
+                    <div class="pri-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="rgb(1, 96, 42)" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+                        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849"/>
+                      </svg>
+                    </div>
+                    <div class="pri-text">
+                        <h3>QUER EXPLORAR ROTEIROS SECRETOS DE CARRO?</h3>
+                        <p><b>Vai por mim,</b> temos conteúdos exclusivos para te ajudar a chegar lá.</p>
+                    </div>
+                </div>
+                <div class="tour-dois">
+                    <img src="../Imagens/Primeira pagina/Viagem/img-turismo-cupom.webp" alt="Turismo" width="300px" height="120px">
+                    <button class="conhecer">
+                        QUERO CONHECER
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="links-para-contato">
+            <div class="links-proprios">
+                <div class="links-contact">
+                    <h3>INSTITUCIONAL</h3>
+
+                    <ul class="ul-contacts">
+                        <li class="li-contacts">Sobre a Localiza</li>
+                        <li class="li-contacts">Relação com o Investidor</li>
+                        <li class="li-contacts">Sala de Imprensa</li>
+                        <li class="li-contacts">Trabalhe Conosco</li>
+                    </ul>
+                </div>
+                <div class="links-contact">
+                    <h3>NEGÓCIOS</h3>
+
+                    <ul class="ul-contacts">
+                        <li class="li-contacts">Para empresas</li>
+                        <li class="li-contacts">Agências de viagem</li>
+                        <li class="li-contacts">Seguradoras</li>
+                        <li class="li-contacts">Seja um franqueado</li>
+                    </ul>
+                </div>
+                <div class="links-contact">
+                    <h3>PARA VOCÊ</h3>
+
+                    <ul class="ul-contacts">
+                        <li class="li-contacts">Minhas reservas</li>
+                        <li class="li-contacts">Roteiros</li>
+                        <li class="li-contacts">Fidelidade</li>
+                        <li class="li-contacts">Cadastre-se</li>
+                    </ul>
+                </div>
+                <div class="links-contact">
+                    <h3>CONTATOS</h3>
+
+                    <ul class="ul-contacts" style="list-style-type: none;">
+                        <li class="li-contacts">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(120, 222, 31)"
+                                class="bi bi-chat-square-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                                <path
+                                    d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                            </svg>
+
+                            <span>Envie sua mensagem</span>
+                        </li>
+
+
+                        <li class="li-contacts">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(120, 222, 31)"
+                                class="bi bi-patch-question-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.933.87a2.89 2.89 0 0 1 4.134 0l.622.638.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01zM7.002 11a1 1 0 1 0 2 0 1 1 0 0 0-2 0m1.602-2.027c.04-.534.198-.815.846-1.26.674-.475 1.05-1.09 1.05-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.7 1.7 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745.336 0 .504-.24.554-.627" />
+                            </svg>
+                            <span>Perguntas frequentes</span>
+                        </li>
+
+                        <li class="li-contacts">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(120, 222, 31)"
+                                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                            </svg>
+                            <span>Central de reservas 24h - 0800 979 2020</span>
+                        </li>
+
+                        <li class="li-contacts">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="rgb(120, 222, 31)"
+                                class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                            </svg>
+                            <span> Assistência a clientes 24h (Whatsapp) - 0800 979 2020</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="div-do-celular">
+            <div class="celular-config">
+                <div class="img-do-celular">
+                    <img src="../Imagens/Celular/img-aplicativoPT.webp" alt="">
+                </div>
+                <div class="texto-do-celular">
+                    <h3>Utilize o aplicativo e ganhe pontos no Localiza Fidelidade
+                    </h3>
+
+                    <button class="config-button-celular">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-apple" viewBox="0 0 16 16">
+                            <path
+                                d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282" />
+                            <span class="span-play">App Store</span>
+                    </button>
+
+                    <button class="config-button-celular segundo-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="white" class="bi bi-google-play" viewBox="0 0 16 16">
+                            <path
+                                d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27" />
+                        </svg>
+                        <span class="span-play">Google Play</span>
+                    </button>
+
+                    
+                    <h6 class="redes-span">SIGA-NOS NAS REDES SOCIAIS</h6>
+                    <ul style="list-style-type: none;" class="redes-icons">
+
+                        
+                        <li class="icones-redes"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#004521" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                          </svg></li>
+                        <li class="icones-redes"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#004521" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                          </svg></li>
+                        <li class="icones-redes"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#004521" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                          </svg></li>
+                        <li class="icones-redes"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#004521" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                          </svg></li>
+                        <li class="icones-redes"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#004521" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                          </svg></li>
+                        <li class="icones-redes"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#004521" class="bi bi-spotify" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                          </svg></li>
+                        <li class="icones-redes"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#004521" class="bi bi-tiktok" viewBox="0 0 16 16">
+                            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                          </svg></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="localiza.js"></script>
+</body>
+
+</html>

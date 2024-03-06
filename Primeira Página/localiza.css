@@ -1,0 +1,707 @@
+@font-face {
+    font-family: SoDoSans-Regular;
+    src: url("../Font/SoDoSans-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkgreenlocaliza: #004521;
+    --lightgreenlocaliza: #01602a;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-color: #00692e;
+
+}
+
+/* Configuração da Div (Header) */
+
+header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.real-header {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0em 0.3em 0.5em rgba(0, 0, 0, 0.274);
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/* Configurações dos itens da lista */
+
+.first-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-opt {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.nav-opt:nth-child(2) {
+    background-color: #00586f;
+}
+
+.nav-opt:nth-child(3) {
+    background-color: #fc8422;
+}
+
+.nav-opt:nth-child(4) {
+    background-color: #78de1f;
+}
+
+.nav-opt:nth-child(5) {
+    background-color: #5ad893;
+}
+
+.nav-opt:nth-child(6) {
+    background-color: white;
+}
+
+.nav-opt:nth-child(1) {
+    background-color: var(--darkgreenlocaliza);
+    border-radius: 5px 0px 0px 0px;
+}
+
+
+.nav-opt a {
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 8pt;
+    line-height: 40px;
+}
+
+.nav-opt>a:visited {
+    color: white;
+}
+
+.nav-opt select {
+    font-family: Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 12pt;
+}
+
+#countries-select {
+    border-radius: 5px 0px 0px 0px;
+    color: var(--darkgreenlocaliza);
+
+}
+
+/* Segunda div */
+
+.site-nav {
+    background-color: var(--lightgreenlocaliza);
+    height: 100px;
+    position: relative;
+}
+
+.img-place {
+    display: inline-block;
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 0px;
+}
+
+.img-logo {
+    display: inline;
+    height: 100%;
+
+}
+
+/* Nav, ul, il - Segundo */
+.segunda-lista {
+    display: inline-block;
+    height: 100%;
+
+}
+
+.nav-ul {
+    display: flex;
+    height: 100%;
+}
+
+.nav-ul li {
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.second-list a {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 9pt;
+
+}
+
+.second-list a:visited {
+    color: white;
+}
+
+
+
+/* Terceira parte da div */
+.adicional-opt {
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.addition {
+    display: flex;
+    margin-top: 20px;
+}
+
+.add-ul li {
+    text-align: left;
+    line-height: 2;
+}
+
+.two-opt a {
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+.changing-word {
+    padding-left: 10px;
+}
+
+/* Ultima parte do header */
+
+.last-part {
+    width: 100%;
+    height: 100px;
+    background-color: #004521;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+
+}
+
+/* Localidade */
+.input-local {
+    display: inline-block;
+    height: 100%;
+    width: 500px;
+
+}
+
+.input-localidade {
+    width: 472px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+
+
+}
+
+
+/* DATA */
+.input-data {
+    display: inline-block;
+    height: 100%;
+}
+
+.input-horario {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.input-horario::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+/* HORA  */
+.input-hora {
+    display: inline-block;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.input-hor {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+/* Configs of the inputs */
+.input-hor::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.inputss::placeholder {
+    color: gray;
+    padding-left: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* Ultima parte da ultima div do header */
+
+.economia {
+    height: 100%;
+    display: flex;
+    margin-left: 40px;
+}
+
+.momney-link {
+    width: 120px;
+}
+
+.momney-link a {
+    color: white;
+    text-decoration: underline;
+    font-family: Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.moneyy {
+    margin-top: 30px;
+}
+
+/* Final do header */
+
+
+
+/* Main */
+main {
+    width: 100%;
+}
+
+/* Carrossel */
+#carousel-container {
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin-top: -100px;
+
+}
+
+#carousel-track {
+    display: inline-flex;
+    transition: transform 0.5s ease-in-out;
+
+
+}
+
+.carousel-item {
+    width: 100%;
+    flex: 0 0 auto;
+    height: 500px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#prevButton,
+#nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#prevButton {
+    left: 40px;
+}
+
+#nextButton {
+    right: 40px;
+}
+
+/* Links duo */
+.links-duo {
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.fast-add {
+    display: inline-flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fast-retirada {
+    margin-left: 150px;
+}
+
+.adicionais {
+    margin-left: 150px;
+}
+
+.fast-retirada,
+.adicionais {
+    display: inline-flex;
+
+}
+
+.texts-div {
+    padding-left: 20px;
+}
+
+.texts-div h3 {
+    font-size: 16px;
+}
+
+.texts-div p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texts-div a,
+.texts-div a:visited {
+    color: var(--darkgreenlocaliza);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* Carrossel de Carros */
+.carrossel-de-carros {
+    width: 100%;
+    background-color: white;
+}
+
+.carros-carrossel {
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.carousel-container-car {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.carousel {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+.carro {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carro img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 50px;
+    width: 40px;
+    border: 1px solid var(--lightgreenlocaliza);
+    text-align: center;
+}
+
+.prev {
+    margin-left: 30%;
+}
+
+.next {
+    margin-right: 30%;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.h2 {
+    color: #01602a;
+    font-family: LocalizaDinDisplay_Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 3.8rem;
+    text-align: center;
+    text-transform: none;
+}
+
+.h2-carros {
+    color: rgb(1, 96, 42);
+    font-size: 18px;
+}
+
+.p-carro {
+    margin-top: 10px;
+}
+
+.conferir-grupos {
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.conferir a {
+    color: #004521;
+    text-decoration: none;
+}
+
+.conferir {
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #004521;
+    border-radius: 5px;
+}
+
+.conferir:hover, .conferir > a:hover  {
+    background-color: #004521;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/* Turismo */
+.viagenss {
+    margin-top: 40px;
+    display: inline-block;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+}
+
+.agrupar-tour {
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+/* Primeira div */
+
+.tour-pri {
+    display: flex;
+    margin-top: 40px;
+}
+
+.pri-text {
+    padding-left: 20px;
+}
+
+.pri-text h3 {
+    color: rgb(1, 96, 42);
+    padding-bottom: 10px;
+}
+
+/* Segunda div */
+.tour-dois {
+    padding-left: 120px;
+    display: flex;
+}
+
+
+.conhecer{
+    height: 48px;
+    width: 180px;
+    background-color: rgb(120, 222, 31);
+     color: rgb(0, 69, 33);
+    border-radius: 4px;
+    border: none;
+    margin-top: 40px;
+    margin-left: -40px;
+}
+
+.conhecer:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(160, 219, 107);
+}
+
+
+
+
+/* Footer */
+
+/* Footer */
+
+footer {
+    margin-top: 5%;
+    display: block;
+    width: 100%;
+}
+
+.links-para-contato {
+    width: 100%;
+    color: white;
+    background-color:rgb(56, 56, 56) ;
+}
+
+.links-proprios {
+    display: inline-flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 100px;
+}
+
+.links-contact {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.links-contact h3 {
+    color: rgb(120, 222, 31);
+}
+
+.ul-contacts {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.li-contacts {
+    display: flex;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.li-contacts span {
+    padding-left: 10px;
+}
+
+.li-contacts:hover {
+    color: rgb(120, 222, 31);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+/* Div do celular */
+.div-do-celular {
+    display: inline-block;
+    width: 100%;
+    background-color:rgb(242, 242, 242) ; 
+}
+
+.celular-config {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.img-do-celular {
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.texto-do-celular {
+    margin-left: 100px;
+}
+
+.texto-do-celular h3 {
+    color: #004521;
+    
+}
+
+.config-button-celular {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    
+}
+
+.config-button-celular:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+.segundo-button {
+    margin-left: 20px;
+}
+
+.span-play {
+    padding-left: 2px;  
+}
+
+.redes-span{
+    color: black;
+    font-size: 12pt;
+    margin-top: 40px;
+}
+
+.redes-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.icones-redes:not(.icones-redes:nth-child(1)){
+    margin-left: 20px;
+}
+
+.icones-redes svg:hover{
+    fill: rgb(72, 146, 7);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+
